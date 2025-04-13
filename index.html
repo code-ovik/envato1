@@ -1,0 +1,620 @@
+  <!-- from 11 56 30march2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeOVIK - Code Today, Roule Tommrow!</title>
+  <link rel="stylesheet" href="./var.css">
+  <link rel="shortcut icon" href="./assets/nav-DUDYgnW1.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="./assets/index-9SfeYsA_.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-jZy_vc2L.css">
+</head>
+<body class=" bg-white dark:bg-black text-black dark:text-white overflow-x-hidden">
+  <!-- Nav Start -->
+  <nav class="bg-white/80 dark:bg-black/80 backdrop-blur-sm h-50 lg:h-70 w-full fixed z-5">
+    <div class="mx-20 flex justify-between items-center h-50 lg:h-70">
+      <a href="/"><img src="./assets/logo-ByuPha5G.png" alt="" class="lg:h-50 h-35"></a>
+      <div class="flex gap-10">
+        <button id="themeToggle" class="lg:h-50 h-40 relative aspect-square rounded-full border-1 lg:border-3 border-primary cursor-pointer">
+          <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" class=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-125" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="moonIcon" xmlns="http://www.w3.org/2000/svg" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-125 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <div class="block lg:hidden hamburgerMenuStickContainer border-1 border-primary h-40 aspect-square rounded-full z-20 relative cursor-pointer">
+          <span class="hamburgerMenuStick bg-black dark:bg-white"></span>
+          <span class="hamburgerMenuStick bg-black dark:bg-white"></span>
+          <span class="hamburgerMenuStick bg-black dark:bg-white"></span>
+        </div>
+        <div class="">
+          <div class="hidden lg:flex gap-10 justify-center items-center h-full font-font1 text-xl pcNav">
+            <a href="/" class="relative after:content-[''] after:bg-primary after:absolute after:h-3 after:rounded-full after:w-0 after:left-1/2 after:-translate-x-1/2 after:bottom-0">Home</a>
+            <a href="" class="relative after:content-[''] after:bg-primary after:absolute after:h-3 after:rounded-full after:w-0 after:left-1/2 after:-translate-x-1/2 after:bottom-0">About</a>
+            <a href="" class="relative after:content-[''] after:bg-primary after:absolute after:h-3 after:rounded-full after:w-0 after:left-1/2 after:-translate-x-1/2 after:bottom-0">Portfolio</a>
+            <a href="" class="relative after:content-[''] after:bg-primary after:absolute after:h-3 after:rounded-full after:w-0 after:left-1/2 after:-translate-x-1/2 after:bottom-0">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- mobile hamburger list for mobile -->
+  <div class="flex gap-10 text-2xl flex-col justify-center items-center h-[calc(100%-50px)] w-full fixed top-50 right-[100%] bg-black/30 backdrop-blur-3xl z-5 hamburger" id="mobileHamburgerList">
+    <a href="" class="w-2/3 bg-primary text-4xl p-8 rounded-xl font-font1 text-center hover:bg-green-500 transition-all duration-200">Home</a>
+    <a href="" class="w-2/3 bg-primary text-4xl p-8 rounded-xl font-font1 text-center hover:bg-green-500 transition-all duration-200">About</a>
+    <a href="" class="w-2/3 bg-primary text-4xl p-8 rounded-xl font-font1 text-center hover:bg-green-500 transition-all duration-200">Portfolio</a>
+    <a href="" class="w-2/3 bg-primary text-4xl p-8 rounded-xl font-font1 text-center hover:bg-green-500 transition-all duration-200">Contact</a>
+  </div>
+  <!-- Nav End -->
+
+  <!-- hero section Start -->
+  <!-- <section class="hero flex flex-col lg:flex-row">
+    
+    <div class="h-full w-full mt-50 relative lg:order-2 lg:flex-[3] heroImg">
+      <img src="src/img1.png" class="">
+      <div class="absolute bg-linear-to-t from-white dark:from-black to-transparent w-full -bottom-1 h-400"></div>
+      <p class="w-full text-center text-primary text-5xl lg:text-6xl text-nowrap absolute bottom-80 animate-bounce font-font1">WEB DEVELOPER</p>
+    </div>
+
+    <div class="flex items-center h-full w-full px-40 lg:order-1 lg:h-dvh lg:flex-[2] heroContent1">
+      <div class="">
+        <h1 class="text-xl lg:text-4xl font-bold  font-font1 uppercase">Hello I'm</h1>
+        <h1 class="text-3xl lg:text-8xl font-extrabold font-font1 uppercase my-10 bg-gradient-to-r from-black to-[#292929] dark:from-white dark:to-[#979797] bg-clip-text text-transparent">Ovik BIswas</h1>
+        <button class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">View Portfolio</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+      </div>
+    </div>
+
+    <div class="flex items-center h-full w-full mt-30 px-40 lg:order-3 lg:h-dvh lg:flex-[2] heroContent2">
+      <div class="h-20"></div>
+      <div class="text-xl lg:text-5xl font-bold">
+        <h1 class="font-font1">About Me</h1>
+        <p class="lg:text-2xl text-xl text-black/80 dark:text-white/80 font-normal dark:hover:text-white hover:text-black duration-500">A personal portfolio is a collection of to your work, that is achievements, and a skills that <span class="text-primary">web design</span> highlights in your.</p>
+        <div class="h-20"></div>
+        <p class="font-font1">Find me on</p>
+        <div class="flex gap-10 pb-20">
+          <div class="card">
+            <a href="instragram">
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+            </a>
+            <a href="youtube">
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </a>
+
+            <a href="linkin">
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+            </a>
+
+            <a href="x">
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="hero flex flex-col lg:flex-row">
+    <div class="flex items-center h-full w-full px-40 lg:h-dvh lg:flex-[7] heroContent1">
+      <div class="mt-80">
+        <h1 class="text-2xl md:text-5xl lg:text-4xl font-bold  font-font1 uppercase">Hello I'm</h1>
+        <h1 class="text-6xl md:text-8xl lg:text-8xl font-extrabold font-font1 uppercase my-10 bg-gradient-to-r from-black to-[#292929] dark:from-white dark:to-[#979797] bg-clip-text text-transparent">Ovik BIswas</h1>
+        <h1 class="text-2xl md:text-5xl lg:text-4xl font-extrabold font-font1 uppercase my-10 text-black dark:text-white">I'm a <span id="typeSkill" class="text-primary"></span> </h1>
+        <button onclick="window.location.href='/contact.html'" class="animated-button mt-25"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">View Portfolio</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+        <p class="text-xl mt-20 font-bold">Find me on</p>
+        <div class="pb-20 flex">
+          <div class="card">
+            <a href="instragram">
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+            </a>
+            <a href="youtube">
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </a>
+
+            <a href="linkin">
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+              <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+            </a>
+
+            <a href="x">
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+              <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="h-full w-full mt-30 relative lg:flex-[6] heroImg">
+      <img src="./assets/img1-CbhVJOJR.png" class="">
+      <div class="absolute bg-linear-to-t from-white dark:from-black to-transparent w-full -bottom-1 h-400"></div>
+      <p class="w-full text-center text-primary text-5xl lg:text-6xl text-nowrap absolute bottom-80 animate-bounce font-font1">WEB DEVELOPER</p>
+    </div>
+  </section>
+  <!-- hero section End -->
+
+  <!-- Exprience Section Start -->
+  <section class="exprience lg:px-40 px-20 lg:gap-20 gap-10 grid lg:grid-cols-2" id="counterSection">
+    <div class="p-20 lg:p-40 rounded-xl lg:rounded-2xl ex1 cardAnimation bg-secondary dark:after:bg-black/70 after:bg-white/70 hover:scale-103 transition-scale duration-300">
+      <p class="text-primary text-5xl lg:text-8xl font-bold font-font1 counter" data-target="25">0</p>
+      <p class="font-font1 text-xl lg:text-3xl py-5">Years Of Exprience</p>
+      <p class="lg:text-xl text-sm text-black/80 dark:text-white/80">Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency.</p>
+    </div>
+    <div class="grid lg:gap-20 gap-10 grid-cols-2">
+      <div class="cardAnimation dark:after:bg-black/70 after:bg-white/70 p-30 rounded-xl lg:rounded-2xl ex2 bg-secondary hover:scale-103 transition-scale duration-300">
+        <p class="text-primary text-2xl lg:text-6xl counter font-font1" data-target="200">0</p>
+        <p class=" text-black/80 dark:text-white/80">Projects Completed</p>
+      </div>
+      <div class="cardAnimation dark:after:bg-black/70 after:bg-white/70 p-30 rounded-xl lg:rounded-2xl ex3 bg-secondary hover:scale-103 transition-scale duration-300">
+        <p class="text-primary text-2xl lg:text-6xl counter font-font1" data-target="1000">0</p>
+        <p class=" text-black/80 dark:text-white/80">Code Bits</p>
+      </div>
+      <div class="cardAnimation dark:after:bg-black/70 after:bg-white/70 p-30 rounded-xl lg:rounded-2xl ex4 bg-secondary hover:scale-103 transition-scale duration-300">
+        <p class="text-primary text-2xl lg:text-6xl counter font-font1" data-target="150">0</p>
+        <p class=" text-black/80 dark:text-white/80">Clients Reviews</p>
+      </div>
+      <div class="cardAnimation dark:after:bg-black/70 after:bg-white/70 p-30 rounded-xl lg:rounded-2xl ex5 bg-secondary hover:scale-103 transition-scale duration-300">
+        <p class="text-primary text-2xl lg:text-6xl counter font-font1" data-target="250">0</p>
+        <p class=" text-black/80 dark:text-white/80">Programmers</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section class="skills-section mx-20 lg:mx-40 mt-40">
+    <div class="flex justify-center">
+      <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">My Skills</span>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-30 gap-10">
+      <div class="skill-container flex flex-col gap-10">
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>HTML</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="100"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>CSS</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="96"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>JavaScript</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="60"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-container flex flex-col gap-10">
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>React</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="50"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>Tailwind CSS</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="90"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name flex justify-between font-bold text-sm lg:text-xl">
+            <span>Python</span>
+            <span class="skill-percent text-xs lg:text-xl font-bold">0%</span>
+          </div>
+          <div class="skill-bar lg:h-10 h-6 bg-light1 dark:bg-dark2 rounded-full overflow-hidden">
+            <div class="skill-progress h-full w-0 bg-primary rounded-full transition duration-1000 ease-out" data-width="30"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- education -->
+  <section class="education lg:mx-40 mx-20 mt-40">
+    <div class="flex justify-center">
+      <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">Education</span>
+    </div>
+    <div class="relative">
+      <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-primary transform -translate-x-1/2 z-0"></div>
+      
+      <div class="space-y-10">
+        <div class="flex flex-col md:flex-row justify-between gap-8">
+          <div class="w-full md:w-[45%] cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-400 relative overflow-hidden p-20 rounded-xl lg:rounded-2xl ed1 bg-secondary hover:scale-103 transition-scale duration-300">
+            <h3 class="text-xl lg:text-3xl font-bold font-font1">Bachelor's Degree</h3>
+            <p class="font-semibold lg:text-xl text-lg mt-1">University of Dhaka</p>
+            <span class="px-5 font-bold inline-block bg-primary lg:text-xl text-sm text-white py-1 rounded-full mt-2">2020 - 2024</span>
+            <p class="dark:text-white/80 text-black/80 mt-3 lg:text-xl text-sm">Computer Science & Engineering<br>GPA: 3.8/4.0</p>
+          </div>
+          <div class="hidden md:block w-[45%]"></div>
+        </div>
+        
+        <div class="flex flex-col md:flex-row justify-between gap-8">
+          <div class="hidden md:block w-[45%]"></div>
+          <div class="w-full md:w-[45%] cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-400 relative overflow-hidden p-20 rounded-xl lg:rounded-2xl ed2 bg-secondary hover:scale-103 transition-scale duration-300">
+            <h3 class="text-xl lg:text-3xl font-bold font-font1">Bachelor's Degree</h3>
+            <p class="font-semibold lg:text-xl text-lg mt-1">University of Dhaka</p>
+            <span class="px-5 font-bold inline-block bg-primary lg:text-xl text-sm text-white py-1 rounded-full mt-2">2020 - 2024</span>
+            <p class="dark:text-white/80 text-black/80 mt-3 lg:text-xl text-sm">Computer Science & Engineering<br>GPA: 3.8/4.0</p>
+          </div>
+        </div>
+        
+        <div class="flex flex-col md:flex-row justify-between gap-8">
+          <div class="w-full md:w-[45%] cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-400 relative overflow-hidden bg-secondary p-20 rounded-xl lg:rounded-2xl ed3 hover:scale-103 transition-scale duration-300">
+            <h3 class="text-xl lg:text-3xl font-bold font-font1">Bachelor's Degree</h3>
+            <p class="font-semibold lg:text-xl text-lg mt-1">University of Dhaka</p>
+            <span class="px-5 font-bold inline-block bg-primary lg:text-xl text-sm text-white py-1 rounded-full mt-2">2020 - 2024</span>
+            <p class="dark:text-white/80 text-black/80 mt-3 lg:text-xl text-sm">Computer Science & Engineering<br>GPA: 3.8/4.0</p>
+          </div>
+          <div class="hidden md:block w-[45%]"></div>
+        </div>
+        
+        <div class="flex flex-col md:flex-row justify-between gap-8">
+          <div class="hidden md:block w-[45%]"></div>
+          <div class="w-full md:w-[45%] cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-400 relative overflow-hidden p-20 rounded-xl lg:rounded-2xl ed4 bg-secondary hover:scale-103 transition-scale duration-300">
+            <h3 class="text-xl lg:text-3xl font-bold font-font1">Bachelor's Degree</h3>
+            <p class="font-semibold lg:text-xl text-lg mt-1">University of Dhaka</p>
+            <span class="px-5 font-bold inline-block bg-primary lg:text-xl text-sm text-white py-1 rounded-full mt-2">2020 - 2024</span>
+            <p class="dark:text-white/80 text-black/80 mt-3 lg:text-xl text-sm">Computer Science & Engineering<br>GPA: 3.8/4.0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me -->
+  <div class="flex justify-center mt-40">
+    <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">About Me</span>
+  </div>
+
+  <section class="lg:mx-40 mx-20 flex lg:flex-row flex-col border-2 border-black/20 dark:border-white/20 rounded-xl lg:rounded-2xl overflow-hidden dark:bg-black/80 bg-white/80 lg:h-600">
+    <div class="relative">
+      <img src="./assets/img2-3wtsrPb0.png" alt="" class="h-full aspect-square object-cover">
+      <div class="absolute bg-linear-to-t from-white dark:from-black to-transparent w-600 -bottom-1 h-200 lg:hidden"></div>
+      <div class=""></div>
+    </div>
+    <div class="lg:p-60 p-10">
+      <p class="lg:text-6xl md:text-6xl text-4xl text-primary font-font1">Ovik Biswas</p>
+      <p class="text-base md:text-4xl lg:text-4xl my-9 lg:my-30 dark:text-white/80 text-black/80">Web Developer from Bangladesh</p>
+      <div class="grid grid-cols-2 grid-rows-2 text-xs lg:text-xl mb-10 lg:mb-30 md:my-20 lg:my-0 lg:gap-y-15 gap-y-7">
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Age</p>
+          <p class="font-bold md:text-xl lg:text-base">15</p>
+        </div>
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Location</p>
+          <p class="font-bold md:text-xl lg:text-base">Bangladesh</p>
+        </div>
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Exprience</p>
+          <p class="font-bold md:text-xl lg:text-base">2+ years</p>
+        </div>
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Hobby</p>
+          <p class="font-bold md:text-xl lg:text-base">Coding</p>
+        </div>
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Language</p>
+          <p class="font-bold md:text-xl lg:text-base">English and Bangla</p>
+        </div>
+        <div class="">
+          <p class="text-black/80 dark:text-white/80 md:text-xl lg:text-base">Pronoun</p>
+          <p class="font-bold md:text-xl lg:text-base">He</p>
+        </div>
+      </div>
+      <ul>
+        <li class="text-xs md:text-xl before:content-['→'] before:text-primary relative md:pl-25 pl-15 font-medium before:left-0 before:absolute">Junior Web Developer with 2 years experience.</li>
+        <li class="text-xs md:text-xl before:content-['→'] before:text-primary relative md:pl-25 pl-15 font-medium before:left-0 before:absolute">Passionate about teaching web development.</li>
+        <li class="text-xs md:text-xl before:content-['→'] before:text-primary relative md:pl-25 pl-15 font-medium before:left-0 before:absolute">Currently expanding backend skills.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- latest portfolio -->
+  <div class="flex justify-center">
+    <span class="font-font1 mt-40 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">Latest Portfolio</span>
+  </div>
+  <section class="lg:px-40 px-20">
+    <article class="grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p1">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p2">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p3">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p4">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p5">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+      <a href="#" class="bg-light1 dark:bg-dark2 p-20 rounded-xl lg:rounded-2xl block portfolioContainer p6">
+        <div class=" relative overflow-hidden rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="rounded-xl lg:rounded-2xl">
+          <img src="./assets/portfolio1-C4GkN6fG.png" alt="" class="absolute rounded-xl lg:rounded-2xl top-[100%] animationImg">
+        </div>
+        <p class="borderAnimation inline-block text-2xl relative font-bold font-font1 after:content-[''] after:absolute after:bg-white after:w-0 after:h-3 after:left-0 after:-bottom-3 after:transition-all  after:ease-in-out">My Personal Portfolio</p>
+        <p class="text-lg my-5 text-black/60 hover:text-black dark:text-white/60 hover:dark:text-white font-bold transition-all duration-300">3-4 Days | $50</p>
+      </a>
+    </article>
+  </section>
+  
+  <!-- Plan -->
+<section class="lg:mx-40 mx-20">
+  <div class="flex justify-center">
+    <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">Let's Work Together</span>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-40 gap-10">
+    <!-- Plan 1 -->
+    <article class="p-20 lg:rounded-2xl rounded-xl plan1 cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-700 bg-secondary hover:scale-103 transition-scale duration-300">
+      <div class="flex flex-col">
+        <p class="inline-block font-font1 text-sm lg:text-xl mb-5">Basic</p>
+        <p class="inline-block font-font1 text-3xl lg:text-4xl font-extrabold">$ 45.00</p>
+        <hr class="lg:mt-30 lg:mb-20 mb-10 mt-20 dark:text-white/10 text-black/10">
+        <div class="flex flex-col gap-3 lg:gap-10 mb-20 lg:mb-40">
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Only 1 page</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">All Device Responsive</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-minus mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Color Gradient</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-minus mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Parallax Effect</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-minus mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Animation</p></span>
+        </div>
+      </div>
+      <button class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">Let's Hire</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+    </article>
+    <!-- Plan 2 -->
+    <article class="p-40 rounded-2xl plan2 cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-700 bg-secondary hover:scale-103 transition-scale duration-300">
+      <div class="flex flex-col">
+        <p class="inline-block font-font1 text-sm lg:text-xl mb-5">Pro</p>
+        <p class="inline-block font-font1 text-3xl lg:text-4xl font-extrabold">$ 45.00</p>
+        <hr class="lg:mt-30 lg:mb-20 mb-10 mt-20 dark:text-white/10 text-black/10">
+        <div class="flex flex-col gap-3 lg:gap-10 mb-20 lg:mb-40">
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Only 1 page</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">All Device Responsive</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Color Gradient</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Parallax Effect</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Animation</p></span>
+        </div>
+      </div>
+      <button class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">Let's Hire</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+    </article>
+    <!-- Plan 3 -->
+    <article class="p-40 rounded-2xl plan3 cardAnimation dark:after:bg-black/70 after:bg-white/70 before:h-700 bg-secondary hover:scale-103 transition-scale duration-300">
+      <div class="flex flex-col">
+        <p class="inline-block font-font1 text-sm lg:text-xl mb-5">Premium</p>
+        <p class="inline-block font-font1 text-3xl lg:text-4xl font-extrabold">$ 45.00</p>
+        <hr class="lg:mt-30 lg:mb-20 mb-10 mt-20 dark:text-white/10 text-black/10">
+        <div class="flex flex-col gap-3 lg:gap-10 mb-20 lg:mb-40">
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Only 1 page</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">All Device Responsive</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Color Gradient</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Parallax Effect</p></span>
+          <span class="lg:text-xl text-sm"><i class="fa-regular fa-square-check mr-10 text-primary"></i><p class="inline-block opacity-80 hover:opacity-100">Animation</p></span>
+        </div>
+      </div>
+      <button class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">Let's Hire</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+    </article>
+  </div>
+</section>
+
+
+
+<!-- Clients review -->
+
+  <!-- FAQ section -->
+  <section class="lg:mx-40 mx-20 mt-40">
+    <div class="flex justify-center">
+      <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">Most Asked</span>
+    </div>
+    <div class="flex flex-col gap-10">
+      <!-- FAQ Item 1 -->
+      <div class="bg-light1 dark:bg-dark2 rounded-xl lg:rounded-2xl overflow-hidden faqRoot">
+        <button class="faq-toggle w-full flex justify-between items-center text-left p-10 lg:p-20">
+          <span class="font-bold font-font1 text-sm lg:text-xl">How can I improve my website's loading speed?</span>
+          <i class="fas fa-chevron-down text-sm transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content">
+          <hr class="lg:mx-20 mx-5 dark:text-white/10 text-black/10">
+          <div class="lg:text-lg text-xs my-5 lg:mx-30 mx-10 lg:my-15">
+            To improve loading speed, use optimized images, minify CSS and JavaScript, enable browser caching, and use a CDN.
+          </div>
+        </div>
+      </div>
+      <div class="bg-light1 dark:bg-dark2 rounded-xl  lg:rounded-2xl overflow-hidden" >
+        <button class="faq-toggle w-full flex justify-between items-center text-left p-10 lg:p-20">
+          <span class="font-bold font-font1 text-sm lg:text-xl">How can I improve my website's loading speed?</span>
+          <i class="fas fa-chevron-down text-sm transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content">
+          <hr class="lg:mx-20 mx-5 dark:text-white/10 text-black/10">
+          <div class="lg:text-lg text-xs my-5 lg:mx-30 mx-10 lg:my-15">
+            To improve loading speed, use optimized images, minify CSS and JavaScript, enable browser caching, and use a CDN.
+          </div>
+        </div>
+      </div>
+      <div class="bg-light1 dark:bg-dark2 rounded-xl  lg:rounded-2xl overflow-hidden" >
+        <button class="faq-toggle w-full flex justify-between items-center text-left p-10 lg:p-20">
+          <span class="font-bold font-font1 text-sm lg:text-xl">How can I improve my website's loading speed?</span>
+          <i class="fas fa-chevron-down text-sm transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content">
+          <hr class="lg:mx-20 mx-5 dark:text-white/10 text-black/10">
+          <div class="lg:text-lg text-xs my-5 lg:mx-30 mx-10 lg:my-15">
+            To improve loading speed, use optimized images, minify CSS and JavaScript, enable browser caching, and use a CDN.
+          </div>
+        </div>
+      </div>
+      <div class="bg-light1 dark:bg-dark2 rounded-xl  lg:rounded-2xl overflow-hidden" >
+        <button class="faq-toggle w-full flex justify-between items-center text-left p-10 lg:p-20">
+          <span class="font-bold font-font1 text-sm lg:text-xl">How can I improve my website's loading speed?</span>
+          <i class="fas fa-chevron-down text-sm transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content">
+          <hr class="lg:mx-20 mx-5 dark:text-white/10 text-black/10">
+          <div class="lg:text-lg text-xs my-5 lg:mx-30 mx-10 lg:my-15">
+            To improve loading speed, use optimized images, minify CSS and JavaScript, enable browser caching, and use a CDN.
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+  <!-- contract -->
+  <section class="lg:mx-40 mx-20 mt-40 mb-40">
+    <div class="flex justify-center">
+      <span class="font-font1 mb-5 lg:text-5xl text-3xl relative after:content-[''] after:bg-primary after:h-3 after:w-[70%] after:absolute after:bottom-0 after:left-0">Let's Contact</span>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-30">
+      <form action="https://formsubmit.co/ovikbiswas01@gmail.com" method="POST" class="form1 flex flex-col lg:gap-10">
+        <span class="grid grid-cols-2 gap-20">
+          <div class="">
+            <label class="font-bold text-xs lg:text-xl text-primary">Your First Name</label>
+            <input type="text" name="First Name" id="firstName" class="w-full capitalize border-2 dark:border-dark2 border-light1 lg:text-lg text-xs font-bold bg-light1 dark:bg-dark2 lg:p-20 p-10 lg:rounded-2xl rounded-xl focus:outline-0 focus:border-primary" placeholder="Ex: Ovik" required>
+          </div>
+          <div class="">
+            <label class="font-bold text-xs lg:text-xl text-primary">Your Last Name</label>
+            <input type="text" name="Last Name" id="lastName" class="w-full capitalize border-2 dark:border-dark2 border-light1 lg:text-lg text-xs font-bold bg-light1 dark:bg-dark2 lg:p-20 p-10 lg:rounded-2xl rounded-xl focus:outline-0 focus:border-primary" placeholder="Ex: Biswas">
+          </div>
+        </span>
+        <div class="">
+          <label class="font-bold text-xs lg:text-xl text-primary">Your Email</label>
+          <input type="email" name="Email" id="email" class="w-full border-2 dark:border-dark2 border-light1 lg:text-lg text-xs font-bold bg-light1 dark:bg-dark2 lg:p-20 p-10 lg:rounded-2xl rounded-xl focus:outline-0 focus:border-primary" placeholder="Ex: yourmail@email.com" required>
+        </div>
+        <div class="">
+          <label class="font-bold text-xs lg:text-xl text-primary">Your Message</label>
+          <textarea name="Message" id="message" class="w-full border-2 dark:border-dark2 border-light1 lg:text-lg text-xs font-bold bg-light1 dark:bg-dark2 lg:p-20 p-10 lg:rounded-2xl rounded-xl focus:outline-0 focus:border-primary" placeholder="Ex: Hello!" rows="4" required></textarea>
+        </div>
+        <div class="flex justify-between mt-10 lg:mt-0">
+          <a id="saveDraft" class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">Save Draft</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></a>
+
+          <button class="animated-button"><svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="text">Let's Submit</span><span class="circle"></span><svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></button>
+        </div>
+      </form>
+      <img src="./assets/img2-3wtsrPb0.png" alt="" class="h-full object-cover rounded-2xl form2 hidden lg:block">
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <section class="lg:px-40 px-20 pt-20 rounded-t-4xl bg-light1 dark:bg-dark2">
+    <div class="flex h-45 items-center justify-between lg:my-20">
+      <img src="./assets/logo-ByuPha5G.png" alt="" class="lg:h-60 h-30">
+      <div class="flex scale-50 md:scale-100 gap-10 pb-20">
+        <div class="card">
+          <a href="instragram">
+            <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+            <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+          </a>
+          <a href="youtube">
+            <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+          </a>
+
+          <a href="linkin">
+            <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+            <svg class="socialSvg fill-black dark:fill-white" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+          </a>
+
+          <a href="x">
+            <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            <svg class="fill-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="opacity-30">
+    <div class="grid grid-cols-1 md:grid-cols-3 mt-20">
+      <div class="flex flex-col">
+        <p class="font-font1 text-xl lg:text-4xl lg:mb-8">Contact</p>
+        <span class="lg:text-xl text-xs lg:font-bold flex lg:gap-10 leading-30 lg:leading-45 mb-5"><div class="relative dark:bg-black bg-white lg:h-40 h-30 aspect-square rounded-full"><i class="fa-solid text-xs lg:text-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 fa-location-dot"></i></div>Faridpur, Bangladesh</span>
+        <span class="lg:text-xl text-xs lg:font-bold flex lg:gap-10 leading-30 lg:leading-45 mb-5"><div class="relative dark:bg-black bg-white lg:h-40 h-30 aspect-square rounded-full"><i class="fa-solid text-xs lg:text-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 fa-phone"></i></div>0123456789</span>
+        <span class="lg:text-xl text-xs lg:font-bold flex lg:gap-10 leading-30 lg:leading-45 mb-5"><div class="relative dark:bg-black bg-white lg:h-40 h-30 aspect-square rounded-full"><i class="fa-solid text-xs lg:text-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 fa-envelope"></i></div>ovikbiswas01@gmail.com</span>
+      </div>
+      <div class="flex flex-col my-10 lg:my-0">
+        <p class="font-font1 text-xl lg:text-4xl lg:mb-8">Site Map</p>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">Home</a>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">About</a>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">Portfolio</a>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">Contact</a>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">Services</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="font-font1 text-xl lg:text-4xl lg:mb-8">External Links</p>
+        <a href="" class="text-sm lg:text-xl lg:leading-35 after:content-[''] after:h-2 after:w-0 hover:after:w-full after:transition-all duration-500 relative after:absolute after:bg-primary after:bottom-5 hover:text-primary after:left-0 w-max">Envato</a>
+      </div>
+    </div>
+    <p class="copyright block text-center text-xs mt-20"></p>
+    <script>
+      //copyright
+      let nowYear = document.querySelector('.copyright');
+      let date = new Date();
+      let year = date.getFullYear();
+      nowYear.innerHTML = `&copy; ${year} CodeOVIK. All rights reserved.`;
+    </script>
+    <div class="h-30"></div>
+  </section>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/kursor"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
+ <!-- tablet responsive -->
