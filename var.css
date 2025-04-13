@@ -1,0 +1,9 @@
+:root {
+    --dark2: #0e0e0e;
+    --light1: #c9c9c9;
+    --primary: #0ff;
+    --secondary: rgba(180, 230, 255, 0.3);
+    --myTime: 0.3s;
+    --clientsReviewTime: 7s;
+    --uiMatchColor: #000;
+}
